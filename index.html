@@ -2,110 +2,78 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bansi Maddali - Senior Machine Learning Engineer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bansi Maddali</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <nav class="nav">
-            <div class="nav-container">
-                <div class="nav-brand">
-                    <h1>Bansi Maddali</h1>
+    <div class="container">
+        <header class="header">
+            <nav class="nav">
+                <span class="nav-brand">Bansi Maddali</span>
+                <div class="nav-links">
+                    <a href="#about">About</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#contact">Contact</a>
                 </div>
-                <ul class="nav-menu">
-                    <li><a href="#home" class="nav-link">Home</a></li>
-                    <li><a href="#blog" class="nav-link">Blog</a></li>
-                    <li><a href="#about" class="nav-link">About</a></li>
-                    <li><a href="#contact" class="nav-link">Contact</a></li>
-                </ul>
-                <div class="nav-toggle">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-            </div>
-        </nav>
-    </header>
+            </nav>
+        </header>
 
-    <main>
-        <section id="home" class="hero">
-            <div class="hero-container">
+        <main class="main">
+            <section class="hero">
                 <h1 class="hero-title">Senior Machine Learning Engineer</h1>
                 <p class="hero-subtitle">Building intelligent systems and sharing insights on AI, ML, and software engineering</p>
-                <a href="#blog" class="cta-button">Read My Articles</a>
-            </div>
-        </section>
+            </section>
 
-        <section id="blog" class="blog-section">
-            <div class="container">
-                <h2 class="section-title">Latest Articles</h2>
+            <section id="about" class="section">
+                <h2>About</h2>
+                <div class="about-content">
+                    <p>I am a Senior Machine Learning Engineer based out of Hyderabad, currently working for the semiconductor giant, Micron. My work week involves building end-to-end MLOps, mostly on Computer Vision and GenAI, and driving collaboration with multiple teams across geographical borders such as Data Scientists, Data Engineers, Solution Architects, and Stakeholders to achieve robust ML systems that solve real business use cases.</p>
+                    <p>My expertise includes designing and deploying scalable ML pipelines, optimizing large models for low latency, and building streaming data solutions on cloud platforms. I have a proven track record in MLOps, LLMOps, and advanced analytics for manufacturing, as well as experience in Edge AI, cloud migration, and AI product development.</p>
+                    <p>With a strong foundation in Python, Java, R, and C/C++, and hands-on experience with frameworks like PyTorch, TensorFlow, and Kubeflow, I am passionate about delivering impactful AI solutions and sharing knowledge with the community.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">40M+</span>
+                            <span class="stat-label">Docs Indexed (LLMOps)</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">20+</span>
+                            <span class="stat-label">ML Projects</span>
+                        </div>
+                    </div>
+                    <p><a href="resume.html" class="link">View Full Resume →</a></p>
+                </div>
+            </section>
+
+            <section id="blog" class="section">
+                <h2>Blog</h2>
                 <div class="blog-grid" id="blog-grid">
                     <!-- Blog posts will be dynamically loaded here -->
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section id="about" class="about-section">
-            <div class="container">
-                <h2 class="section-title">About Me</h2>
-                <div class="about-content">
-                    <div class="about-text">
-                        <p>I am a Senior Machine Learning Engineer based out of Hyderabad, currently working for the semiconductor giant, Micron. My work week involves building end-to-end MLOps, mostly on Computer Vision and GenAI, and driving collaboration with multiple teams across geographical borders such as Data Scientists, Data Engineers, Solution Architects, and Stakeholders to achieve robust ML systems that solve real business use cases.</p>
-                        <p>My expertise includes designing and deploying scalable ML pipelines, optimizing large models for low latency, and building streaming data solutions on cloud platforms. I have a proven track record in MLOps, LLMOps, and advanced analytics for manufacturing, as well as experience in Edge AI, cloud migration, and AI product development.</p>
-                        <p>With a strong foundation in Python, Java, R, and C/C++, and hands-on experience with frameworks like PyTorch, TensorFlow, and Kubeflow, I am passionate about delivering impactful AI solutions and sharing knowledge with the community.</p>
-                        <p><a href="resume.html" class="cta-button" style="margin-top:1rem;">View Full Resume</a></p>
-                    </div>
-                    <div class="about-stats">
-                        <div class="stat">
-                            <h3>5+</h3>
-                            <p>Years Experience</p>
-                        </div>
-                        <div class="stat">
-                            <h3>40M+</h3>
-                            <p>Docs Indexed (LLMOps)</p>
-                        </div>
-                        <div class="stat">
-                            <h3>20+</h3>
-                            <p>ML Projects</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact" class="contact-section">
-            <div class="container">
-                <h2 class="section-title">Get In Touch</h2>
+            <section id="contact" class="section">
+                <h2>Contact</h2>
                 <div class="contact-content">
-                    <div class="contact-info">
-                        <div class="contact-item">
-                            <i class="fas fa-envelope"></i>
-                            <p>bmaddali@micron.com</p>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fab fa-github"></i>
-                            <p>github.com/bansi-007</p>
-                        </div>
-
-                        <div class="contact-item">
-                            <i class="fab fa-medium"></i>
-                            <p>medium.com/@bansimaddali</p>
-                        </div>
+                    <p>Get in touch with me:</p>
+                    <div class="contact-links">
+                        <a href="mailto:bmaddali@micron.com" class="link">bmaddali@micron.com</a>
+                        <a href="https://github.com/bansi-007" class="link" target="_blank">GitHub</a>
+                        <a href="https://medium.com/@bansimaddali" class="link" target="_blank">Medium</a>
                     </div>
                 </div>
-            </div>
-        </section>
-    </main>
+            </section>
+        </main>
 
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2024 Bansi Maddali. Built with ❤️ and GitHub Pages.</p>
-        </div>
-    </footer>
-
+        <footer class="footer">
+            <p>&copy; 2024 Bansi Maddali</p>
+        </footer>
+    </div>
     <script src="script.js"></script>
 </body>
 </html> 
