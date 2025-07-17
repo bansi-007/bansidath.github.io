@@ -1,60 +1,117 @@
-/* Custom styles to match Cat Chens site */
 body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI", Roboto,Helvetica Neue", Arial, sans-serif;
-  line-height: 16  color: #333;
+  color: #e5e7b;
+  background: #0f172a;
+  line-height: 1.6;
 }
 
 .profile-placeholder [object Object]width: 10;
   max-width:360x;
   height: 360x;
-  background: #f89 border:2px solid #dee2e6;
+  background: #1e293 border:2px solid #334155;
   border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
+  margin: 0auto 1.5 auto;
 }
 
 .profile-text {
   font-size: 3rem;
   font-weight: bold;
-  color: #6c757text-align: center;
+  color: #60a5text-align: center;
 }
 
 h2 [object Object] font-size: 1.5rem;
   font-weight: 600;
   margin-top: 1.5rem;
   margin-bottom: 1rem;
-  color: #333 [object Object]
-  margin-bottom: 1rem;
-  color: #555
+  color: #f8fafc;
 }
 
-a [object Object]  color: #007bff;
+h3 [object Object] font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #f8fafc;
+}
+
+p [object Object]
+  margin-bottom:1rem;
+  color: #cbd5e1
+}
+
+a [object Object]  color: #60a5fa;
   text-decoration: none;
 }
 
-a:hover [object Object]  color: #0056b3;
+a:hover [object Object]  color: #93c5fd;
   text-decoration: underline;
 }
 
 .navbar [object Object]
-  border-bottom:1px solid #dee2e6;
+  background: #1e293mportant;
+  border-bottom:1px solid #334155;
 }
 
-.navbar-nav .nav-link {
-  color: #333  font-weight: 50;
+.navbar-nav .nav-link [object Object]  color: #e5e7eb !important;
+  font-weight: 50;
 }
 
-.navbar-nav .nav-link.active [object Object]  color: #07ff;
+.navbar-nav .nav-link.active [object Object]  color: #60fa !important;
 }
 
-.fw-bold[object Object]  font-weight: 60
+.navbar-toggler[object Object]
+  border-color: #475569}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns=http://www.w3.org/2000/svgviewBox='0 0%3%3cpath stroke='rgba(255, 255, 2550.75 stroke-linecap='round' stroke-miterlimit='10stroke-width='2d=M4 7224 15h22M4 23h22'/%3e%3c/svg%3e);
+}
+
+.fw-bold[object Object]  font-weight: 600;
+  color: #f8fafc;
+}
+
+.blog-posts[object Object]  margin-top: 1rem;
+}
+
+.blog-post[object Object]
+  padding: 1rem;
+  background: #1e293 border:1px solid #334155;
+  border-radius: 8
+  transition: all 00.3e;
+  margin-bottom: 1rem;
+}
+
+.blog-post:hover[object Object]
+  border-color: #60a5fa;
+  transform: translateY(-2px);
+  box-shadow: 0 4 12 rgba(96, 165500.1);
+}
+
+.blog-post h3 [object Object]
+  margin-bottom: 0.5rem;
+}
+
+.blog-post h3 a [object Object]  color: #f8fafc;
+  text-decoration: none;
+}
+
+.blog-post h3 a:hover [object Object]  color: #60;
+}
+
+.blog-excerpt [object Object]  color: #94a3b8
+  font-size:0.95m;
+  margin-bottom: 0.5em;
+}
+
+.text-muted [object Object]  color: #64748!important;
+  font-size: 085em;
+}
+
 @media (max-width: 768{
   .profile-placeholder[object Object]    max-width: 240x;
-    height:240
+    height: 240px;
   }
-  
   .profile-text [object Object]   font-size: 2rem;
   }
 } 
