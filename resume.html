@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bansi Maddali - Resume</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .resume-container { max-width: 900px; margin: 80px auto 40px; background: #1e293b; border-radius: 12px; box-shadow: 0 4px 24px rgba(0,0,0,0.2); padding: 2.5rem 2rem; color: #e5e7eb; }
+    .resume-header { display: flex; flex-direction: column; align-items: flex-start; margin-bottom: 2rem; }
+    .resume-header h1 { font-size: 2.5rem; color: #60a5fa; margin-bottom: 0.5rem; }
+    .resume-header p { font-size: 1.2rem; color: #cbd5e1; margin-bottom: 0.5rem; }
+    .resume-section { margin-bottom: 2.5rem; }
+    .resume-section h2 { color: #60a5fa; font-size: 1.5rem; margin-bottom: 1rem; border-bottom: 1px solid #334155; padding-bottom: 0.3rem; }
+    .resume-list { margin: 0; padding: 0; list-style: none; }
+    .resume-list li { margin-bottom: 1.2rem; }
+    .resume-job-title { font-weight: 600; color: #f8fafc; }
+    .resume-job-meta { font-size: 1rem; color: #94a3b8; margin-bottom: 0.2rem; }
+    .resume-job-desc { color: #cbd5e1; font-size: 1.05rem; }
+    .resume-skill-list, .resume-cert-list { display: flex; flex-wrap: wrap; gap: 0.7rem 1.5rem; }
+    .resume-skill-list li, .resume-cert-list li { background: #334155; color: #f8fafc; border-radius: 6px; padding: 0.3rem 0.8rem; font-size: 1rem; }
+    .resume-edu-title { font-weight: 600; color: #f8fafc; }
+    .resume-edu-meta { color: #94a3b8; font-size: 1rem; }
+    .resume-interests { color: #cbd5e1; }
+    .resume-nav { margin-bottom: 2rem; }
+    .resume-nav a { color: #60a5fa; text-decoration: none; font-weight: 500; margin-right: 1.5rem; }
+    .resume-nav a:hover { text-decoration: underline; }
+    @media (max-width: 600px) { .resume-container { padding: 1rem 0.5rem; } }
+  </style>
+</head>
+<body>
+  <div class="resume-container">
+    <nav class="resume-nav">
+      <a href="index.html">← Home</a>
+    </nav>
+    <header class="resume-header">
+      <h1>Bansi Maddali</h1>
+      <p>Senior Machine Learning Engineer | Hyderabad, India</p>
+      <p>Email: <a href="mailto:bansi.maddali@gmail.com" style="color:#60a5fa;">bansi.maddali@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/bansi-maddali" style="color:#60a5fa;">bansi-maddali</a> | GitHub: <a href="https://github.com/bansidath" style="color:#60a5fa;">bansidath</a> | Medium: <a href="https://medium.com/@bansimaddali" style="color:#60a5fa;">@bansimaddali</a></p>
+    </header>
+
+    <section class="resume-section">
+      <h2>Professional Summary</h2>
+      <p>Senior Machine Learning Engineer with 5+ years of experience building end-to-end MLOps, Computer Vision, and GenAI solutions. Proven expertise in designing scalable ML pipelines, optimizing large models for low latency, and deploying robust AI systems in production. Adept at collaborating with cross-functional teams and driving innovation in manufacturing, cloud, and edge AI environments.</p>
+    </section>
+
+    <section class="resume-section">
+      <h2>Experience</h2>
+      <ul class="resume-list">
+        <li>
+          <div class="resume-job-title">Micron Technology LLP, Hyderabad, India</div>
+          <div class="resume-job-meta">Senior Machine Learning Engineer | Nov 2022 – Present</div>
+          <div class="resume-job-desc">
+            <ul>
+              <li>Built MLOps across the production line to ensure 100% yield through effective defect identification, integrating ML algorithms for real-time defect detection and operational efficiency.</li>
+              <li>Core analytics team member for HBM3E, supporting manufacturing supply targets.</li>
+              <li>Optimized large models for lower latency, enabling faster inference and immediate decision-making in production.</li>
+              <li>Engineered streaming data pipelines on GCP for robust image and video inferencing.</li>
+              <li>Designed and built LLMOps for a GenAI application indexing 40M+ documents, enhancing operator efficiency and process knowledge.</li>
+              <li>Developed video analytics solutions for operator compliance using advanced computer vision.</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <div class="resume-job-title">Tata Consultancy Services, Hyderabad, India</div>
+          <div class="resume-job-meta">AI Engineer | 2020 – Nov 2022</div>
+          <div class="resume-job-desc">
+            <ul>
+              <li>Focused on Edge AI, enabling OpenVINO for model pruning, quantization, and optimization for edge devices.</li>
+              <li>Migrated IoT-based Industrial ML applications from legacy cloud to Azure, aligning Java code for seamless Azure integration.</li>
+              <li>Orchestrated data streaming in Azure Cosmos and built end-to-end data collection pipelines with Azure IoT Edge.</li>
+              <li>Supported XGBoost model deployment for real-time operator advisories and led the 'Innovation Garage' team for research POCs in RL, CV, NLP, and Risk Analytics.</li>
+              <li>Worked on Azure BONSAI for rapid factory floor problem-solving using RL.</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <div class="resume-job-title">Tata Consultancy Services, Chennai, India</div>
+          <div class="resume-job-meta">Java/ML Developer | 2018 – 2020</div>
+          <div class="resume-job-desc">
+            <ul>
+              <li>Developed secure Spring Boot applications integrating Python and R ML services (30+ algorithms as APIs).</li>
+              <li>Implemented PySpark and SparkR for scalable analytics in TCS’s Enterprise Cloud ML Offering.</li>
+              <li>Built deep learning forecasting algorithms (LSTM, RNN) for cloud resource capacity estimation.</li>
+              <li>Gained end-to-end experience in ML systems, from UI to backend and analytics.</li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="resume-section">
+      <h2>Skills</h2>
+      <ul class="resume-skill-list">
+        <li>Applied Machine Learning</li>
+        <li>Deep Learning & Reinforcement Learning</li>
+        <li>Model Quantization & Pruning</li>
+        <li>Knowledge Distillation</li>
+        <li>MLOps & LLMOps</li>
+        <li>System Design</li>
+        <li>Design Patterns</li>
+        <li>DSA</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>R</li>
+        <li>C/C++</li>
+        <li>PyTorch</li>
+        <li>TensorFlow</li>
+        <li>Flask</li>
+        <li>Kubeflow Pipelines</li>
+        <li>Apache Beam</li>
+        <li>Kubernetes</li>
+        <li>GCP</li>
+        <li>Azure</li>
+        <li>Cloud Era</li>
+      </ul>
+    </section>
+
+    <section class="resume-section">
+      <h2>Certifications</h2>
+      <ul class="resume-cert-list">
+        <li>Tensorflow Certified Developer</li>
+        <li>Google Cloud Certified Professional Machine Learning Engineer</li>
+        <li>Andrew NG’s DL Course Certification</li>
+      </ul>
+    </section>
+
+    <section class="resume-section">
+      <h2>Education</h2>
+      <div class="resume-edu-title">Bachelor of Technology – Information Technology</div>
+      <div class="resume-edu-meta">Velagapudi Ramakrishna Siddhartha College of Engineering, Vijayawada, AP | 2014–2018</div>
+    </section>
+
+    <section class="resume-section">
+      <h2>Personal Interests</h2>
+      <div class="resume-interests">
+        Exploring new technologies, open-source contributions, mentoring, wildlife photography, and travel.
+      </div>
+    </section>
+  </div>
+</body>
+</html> 
